@@ -5,5 +5,6 @@ pkgs.mkShell {
     pkgs.ruby
     pkgs.bundler
     pkgs.jekyll
+    pkgs.rubyPackages_3_4.github-pages
   ];
 }
